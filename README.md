@@ -9,7 +9,7 @@ Download the filtered gene-barcode matrix from 10x Genomics:
 ```bash
 curl -L -o pbmc3k_filtered_gene_bc_matrices.tar.gz https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
 mkdir -p data/pbmc3k
-tar -xzf pbmc3k_filtered_gene_bc_matrices.tar.gz -C raw_data/ --strip-components=1
+tar -xzf pbmc3k_filtered_gene_bc_matrices.tar.gz -C data/ --strip-components=1
 ```
 
 This will create the following input files in `raw_data/`:
@@ -25,8 +25,7 @@ This will create the following input files in `raw_data/`:
 │   └── config.yaml
 ├── envs/
 │   └── scanpy.yaml
-├── raw_data/
-│   └── pbmc3k/
+├── data/
 │       ├── barcodes.tsv
 │       ├── genes.tsv
 │       └── matrix.mtx
