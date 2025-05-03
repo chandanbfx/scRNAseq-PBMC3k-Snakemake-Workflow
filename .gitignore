@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environments
+.env
+.conda/
+.venv/
+snakemake_env/
+.snakemake/conda/
+
+# Jupyter notebooks checkpoint files
+.ipynb_checkpoints/
+
+# Snakemake hidden folders
+.snakemake/
+
+# Log files
+*.log
+*.err
+*.out
+
+# Snakemake reports
+report.html
+dag.png
+dag.pdf
+
+
+
+# Environment lock files (optional)
+conda-lock.yml
+mamba-lock.yml
+
+# Temporary or test data
+tmp/
+temp/
+*.tar.gz
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+

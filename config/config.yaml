@@ -1,0 +1,12 @@
+
+params:
+  min_genes: 200
+  max_genes: 6000
+  max_mt: 5.0
+  n_pcs: 30
+  resolution: 0.5
+
+resources:
+  default:
+    threads: 4
+    mem_mb: 16000
