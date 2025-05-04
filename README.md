@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive and modular Snakemake workflow for single-cell RNA-seq (scRNA-seq) analysis using the 10x Genomics PBMC 3k dataset.
 
-## 📂 Dataset
+## Dataset
 
 Download the filtered gene-barcode matrix from 10x Genomics:
 
@@ -17,7 +17,7 @@ This will create the following input files in `raw_data/`:
 - `genes.tsv`
 - `matrix.mtx`
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 .
@@ -53,7 +53,7 @@ This will create the following input files in `raw_data/`:
 └── Snakefile
 ```
 
-## ▶️ Usage
+## Usage
 
 Create conda environments and run the workflow:
 
@@ -61,7 +61,7 @@ Create conda environments and run the workflow:
 snakemake --use-conda --conda-frontend conda --cores 4
 ```
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
