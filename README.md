@@ -66,7 +66,7 @@ snakemake --use-conda --conda-frontend conda --cores 4
 This project is licensed under the MIT License.
 
 
-Acknowledgements
+**Acknowledgements**
 
 This workflow uses the following tools and libraries:
 
