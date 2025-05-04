@@ -69,11 +69,19 @@ This project is licensed under the MIT License.
 Acknowledgements
 
 This workflow uses the following tools and libraries:
+
     Scanpy: https://scanpy.readthedocs.io/en/stable/
+    
     BBKNN: https://github.com/Teichlab/bbknn
+    
     Scanorama: https://github.com/brianhie/scanorama
+    
     Harmonypy: https://github.com/slowkow/harmonypy
+    
     Leidenalg: https://github.com/vtraag/leidenalg
+    
     iGraph (Python): https://igraph.org/python/
+    
     Snakemake: https://snakemake.readthedocs.io/en/stable/
+    
     AnnData: https://anndata.readthedocs.io/en/latest/
